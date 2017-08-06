@@ -5,6 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity;
 using System.Globalization;
 using System.Web.Security;
+using PersonalDiary.Models.CustomValidators;
 
 namespace PersonalDiary.Models
 {
@@ -65,9 +66,7 @@ namespace PersonalDiary.Models
         [DataType(DataType.Password)]
         [Display(Name = "Password")]
         public string Password { get; set; }
-
-        [Display(Name = "Remember me?")]
-        public bool RememberMe { get; set; }
+  
     }
 
     public class RegisterModel
@@ -88,11 +87,15 @@ namespace PersonalDiary.Models
         [Display(Name = "Phone")]
         public string Phone { get; set; }
 
+        [Required]
+        [Display(Name = "DOB")]
+        public string DOB { get; set; }
 
         [Required]
         [StringLength(100, ErrorMessage = "The {0} must be at least {2} characters long.", MinimumLength = 6)]
         [DataType(DataType.Password)]
         [Display(Name = "Password")]
+        [CustomPasswordValidator]
         public string Password { get; set; }
 
         [DataType(DataType.Password)]

@@ -23,7 +23,7 @@ namespace PersonalDiary.Controllers
         [AllowAnonymous]
         public ActionResult Login(string returnUrl)
         {
-            ViewBag.ReturnUrl = returnUrl;
+            ViewBag.ReturnUrl = "returnUrl";
             return View();
         }
 
@@ -35,7 +35,7 @@ namespace PersonalDiary.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Login(LoginModel model, string returnUrl)
         {
-            if (ModelState.IsValid && WebSecurity.Login(model.UserName, model.Password, persistCookie: model.RememberMe))
+            if (ModelState.IsValid)
             {
                 return RedirectToLocal(returnUrl);
             }
