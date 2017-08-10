@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "DashBoard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div id="body">
+    <div style="border-right: solid 1px #0094ff; height: 600px; width: 15%; float: left;">
+        @Html.Partial("_LeftPartial");
+    </div>
+    <div style="width: 80%; float: left;">
+        @RenderBody()
+    </div>
+</div>

@@ -47,7 +47,6 @@ D:\projects\MVC\projects\PersonalDiary\PersonalDiary\bin\DotNetOpenAuth.OpenId.R
 D:\projects\MVC\projects\PersonalDiary\PersonalDiary\obj\Debug\PersonalDiary.dll
 D:\projects\MVC\projects\PersonalDiary\PersonalDiary\obj\Debug\PersonalDiary.pdb
 D:\projects\MVC\projects\PersonalDiary\PersonalDiary\obj\Debug\PersonalDiary.csprojResolveAssemblyReference.cache
-D:\GIT\PersonalDiary\PersonalDiary\obj\Debug\PersonalDiary.csprojResolveAssemblyReference.cache
 D:\GIT\PersonalDiary\PersonalDiary\obj\Debug\PersonalDiary.dll
 D:\GIT\PersonalDiary\PersonalDiary\bin\PersonalDiary.dll
 D:\GIT\PersonalDiary\PersonalDiary\bin\PersonalDiary.pdb
@@ -62,10 +61,7 @@ D:\GIT\PersonalDiary\PersonalDiary\bin\EntityFramework.dll
 D:\GIT\PersonalDiary\PersonalDiary\bin\Microsoft.Web.Infrastructure.dll
 D:\GIT\PersonalDiary\PersonalDiary\bin\Microsoft.Web.WebPages.OAuth.dll
 D:\GIT\PersonalDiary\PersonalDiary\bin\Newtonsoft.Json.dll
-D:\GIT\PersonalDiary\PersonalDiary\bin\System.Net.Http.Formatting.dll
 D:\GIT\PersonalDiary\PersonalDiary\bin\System.Web.Helpers.dll
-D:\GIT\PersonalDiary\PersonalDiary\bin\System.Web.Http.dll
-D:\GIT\PersonalDiary\PersonalDiary\bin\System.Web.Http.WebHost.dll
 D:\GIT\PersonalDiary\PersonalDiary\bin\System.Web.Mvc.dll
 D:\GIT\PersonalDiary\PersonalDiary\bin\System.Web.Optimization.dll
 D:\GIT\PersonalDiary\PersonalDiary\bin\System.Web.Razor.dll
@@ -77,10 +73,7 @@ D:\GIT\PersonalDiary\PersonalDiary\bin\WebMatrix.Data.dll
 D:\GIT\PersonalDiary\PersonalDiary\bin\WebMatrix.WebData.dll
 D:\GIT\PersonalDiary\PersonalDiary\bin\EntityFramework.xml
 D:\GIT\PersonalDiary\PersonalDiary\bin\Newtonsoft.Json.xml
-D:\GIT\PersonalDiary\PersonalDiary\bin\System.Net.Http.Formatting.xml
 D:\GIT\PersonalDiary\PersonalDiary\bin\System.Web.Helpers.xml
-D:\GIT\PersonalDiary\PersonalDiary\bin\System.Web.Http.xml
-D:\GIT\PersonalDiary\PersonalDiary\bin\System.Web.Http.WebHost.xml
 D:\GIT\PersonalDiary\PersonalDiary\bin\System.Web.Mvc.xml
 D:\GIT\PersonalDiary\PersonalDiary\bin\System.Web.Razor.xml
 D:\GIT\PersonalDiary\PersonalDiary\bin\System.Web.WebPages.xml

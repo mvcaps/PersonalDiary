@@ -37,7 +37,10 @@ namespace PersonalDiary.Controllers
         {
             if (ModelState.IsValid)
             {
-                return RedirectToLocal(returnUrl);
+
+                // validate the credencials here...
+                Session["UserId"] = model.UserName;
+                return RedirectToAction("Index", "DashBoard");      
             }
 
             // If we got this far, something failed, redisplay form
