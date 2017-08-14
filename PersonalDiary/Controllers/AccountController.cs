@@ -23,6 +23,7 @@ namespace PersonalDiary.Controllers
         [AllowAnonymous]
         public ActionResult Login(string returnUrl)
         {
+            TempData["ErrorMessage"] = "Please enter your credentials";
             ViewBag.ReturnUrl = "returnUrl";
             return View();
         }
@@ -37,7 +38,8 @@ namespace PersonalDiary.Controllers
         {
             if (ModelState.IsValid)
             {
-
+                TempData["ErrorMessage"] = "Invalid credentials";
+                return View();
                 // validate the credencials here...
                 Session["UserId"] = model.UserName;
                 return RedirectToAction("Index", "DashBoard");      

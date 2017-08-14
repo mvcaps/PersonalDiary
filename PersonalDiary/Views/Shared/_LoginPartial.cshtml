@@ -8,7 +8,20 @@
     </text>
 } else {
     <ul>
+        @if(Session["UserId"] == null)        {
         <li>@Html.ActionLink("Register", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
         <li>@Html.ActionLink("Log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+        }
+        else
+        {
+            <div >
+                <div style="float:left;width:60%;">
+                    <text><b> Hello @Session["UserId"] </b></text>
+                </div>
+                <div style="float:left;width:40%;">
+                    @Html.ActionLink("Log Out", "Logout", "Dashboard")
+                </div>
+            </div>
+        }
     </ul>
 }

@@ -89,3 +89,4 @@ D:\GIT\PersonalDiary\PersonalDiary\bin\DotNetOpenAuth.OAuth.xml
 D:\GIT\PersonalDiary\PersonalDiary\bin\DotNetOpenAuth.OpenId.xml
 D:\GIT\PersonalDiary\PersonalDiary\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
 D:\GIT\PersonalDiary\PersonalDiary\obj\Debug\PersonalDiary.pdb
+D:\GIT\PersonalDiary\PersonalDiary\obj\Debug\PersonalDiary.csprojResolveAssemblyReference.cache

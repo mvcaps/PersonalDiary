@@ -17,5 +17,11 @@ namespace PersonalDiary.Controllers
             return View();
         }
 
+        public ActionResult Logout()
+        {
+            Session.Abandon();
+            return RedirectToAction("Index", "Home");
+        }
+
     }
 }
