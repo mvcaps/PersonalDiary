@@ -17,12 +17,30 @@ namespace PersonalDiary.Controllers
     [InitializeSimpleMembership]
     public class AccountController : Controller
     {
+        protected override void OnException(ExceptionContext filterContext)
+        {
+            Exception ex = filterContext.Exception;
+            filterContext.ExceptionHandled = true;
+
+            var model = new HandleErrorInfo(filterContext.Exception, "Controller", "Action");
+
+            filterContext.Result = new ViewResult()
+            {
+                ViewName = "Error",
+                ViewData = new ViewDataDictionary(model)
+            };
+
+        }
+
+
         //
         // GET: /Account/Login
 
-        [AllowAnonymous]
+        [AllowAnonymous] 
         public ActionResult Login(string returnUrl)
         {
+            int k = 0;
+            int x= 2/k;
             TempData["ErrorMessage"] = "Please enter your credentials";
             ViewBag.ReturnUrl = "returnUrl";
             return View();
